@@ -1,5 +1,5 @@
 s3 website URL: https://selce-shop-react-redux-cloudfront.s3.eu-central-1.amazonaws.com/index.html
-cloudfront URL: d1ap8z58pfdqg4.cloudfront.net
+cloudfront URL: https://d1ap8z58pfdqg4.cloudfront.net
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
