@@ -1,13 +1,13 @@
-service: node-in-aws-web
+service: selce-service-shop-react-redux-cloudfront
 
 frameworkVersion: '3'
 
 provider:
   name: aws
-  runtime: nodejs12.x
   region: eu-central-1
+  runtime: nodejs14.x
   # setup profile for AWS CLI.
-  # profile: node-aws
+  profile: selcuk
 
 plugins:
   - serverless-finch
@@ -18,7 +18,7 @@ plugins:
 
 custom:
   client:
-    bucketName: node-in-aws-web-bucket
+    bucketName: selce-shop-react-redux-cloudfront
     distributionFolder: build
   s3BucketName: ${self:custom.client.bucketName}
 
