@@ -44,6 +44,7 @@
     "react-scripts": "^3.4.1",
     "serverless": "^3.19.0",
     "serverless-finch": "^4.0.0",
+    "serverless-single-page-app-plugin": "file:./.serverless_plugins/serverless-single-page-app-plugin",
     "typescript": "^3",
     "yup": "^0.29.1"
   },
